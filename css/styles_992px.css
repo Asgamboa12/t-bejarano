@@ -1,0 +1,218 @@
+/* Max Width 600px */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Navbar */
+
+#nav-logo {
+    width: 10rem;
+    padding: .5rem;
+}
+
+#nav {
+    width: 100%;
+}
+
+#icono,
+#nav h5 {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-right: .5rem;
+}
+
+#nav a {
+    margin-left: auto;
+}
+
+
+/* Presentation */
+
+#presentation {
+    /* margin-top: -4rem; */
+    background-image: url('assets/trailer_fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-position: -15rem -15rem;
+    height: 60rem;
+    margin-bottom: 15rem;
+}
+
+._1 {
+    margin-top: 1rem;
+    padding-top: 10vh;
+    font-size: 4rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+._1 br {
+    display: none;
+}
+
+._2 {
+    margin-top: -1rem;
+    font-size: 1.8rem;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+
+/* Form */
+
+#form {
+    padding-top: 7vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+form label {
+    font-size: 1.3rem;
+}
+
+form h4 {
+    font-size: 2.5rem;
+}
+
+form .btn {
+    margin-top: 2rem;
+    background-color: #991010;
+    /* font-size: 2rem; */
+}
+
+form {
+    padding: 2rem;
+}
+
+.input-textfield textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #991010;
+    box-shadow: 0 1px 0 0 #991010;
+}
+
+.input-textfield textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #991010;
+}
+
+.input-textfield input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #991010;
+    box-shadow: 0 1px 0 0 #991010;
+}
+
+.input-textfield input[type=text]:not(.browser-default):focus:not([readonly])+label {
+    color: #991010;
+}
+
+.input-textfield .prefix.active {
+    color: #991010;
+}
+
+
+/* Conocenos */
+
+#conocenos {
+    margin-bottom: 7rem;
+}
+
+#conocenos h1 {
+    font-size: 4rem;
+    color: #991010;
+}
+
+#conocenos h5 {
+    font-size: 1.8rem;
+}
+
+#conocenos br {
+    display: none;
+}
+
+
+/* Services */
+
+#mudanzas {
+    background-image: url('assets/mudanza.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+#mudanzas h6 {
+    padding: 6rem;
+    font-size: 3rem;
+}
+
+#desalojos {
+    background-image: url('assets/desalojos.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+#desalojos h6 {
+    padding: 6rem;
+    font-size: 3rem;
+}
+
+#renta {
+    background-image: url('assets/renta.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+#renta h6 {
+    padding: 6rem;
+    font-size: 3rem;
+}
+
+
+/* Razones */
+
+#razones h4 {
+    margin-top: 3rem;
+    font-size: 4rem;
+}
+
+#razones h5 {
+    font-size: 3rem;
+}
+
+#razones h6 {
+    font-size: 2rem;
+}
+
+#razones div {
+    padding-top: 3rem;
+}
+
+#razones i {
+    font-size: 7rem;
+    color: #991010;
+}
+
+
+/* Maps */
+
+#maps iframe {
+    width: 100%;
+    height: 50vh;
+    margin-top: 2rem;
+}
+
+
+/* Footer */
+
+#footer-logo {
+    width: 15rem;
+    margin-top: 4rem;
+}
+
+.page-footer {
+    background-color: #991010;
+    margin-top: 2rem;
+}

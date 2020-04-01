@@ -1,0 +1,209 @@
+/* Max Width 600px */
+
+body {
+    /* background-color: aqua; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Navbar */
+
+#nav-logo {
+    width: 9rem;
+    padding: 1rem;
+}
+
+#nav {
+    width: 100%;
+}
+
+#icono,
+#nav h5 {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-right: .5rem;
+}
+
+#nav a {
+    margin-left: auto;
+}
+
+
+/* Presentation */
+
+#presentation {
+    background-image: url('assets/trailer_fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 49rem;
+}
+
+._1 {
+    text-align: left;
+    padding-top: 10vh;
+    font-size: 5rem;
+    padding-left: 5vw;
+}
+
+._2 {
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 5vw;
+}
+
+
+/* Form */
+
+form .btn:hover {
+    background-color: #5d5c5c;
+}
+
+form .btn {
+    margin-top: 2rem;
+    background-color: #991010;
+    /* font-size: 2.4vw; */
+}
+
+form {
+    margin-top: 10vh;
+    width: 45vw;
+    padding: 2rem;
+}
+
+.input-textfield textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #991010;
+    box-shadow: 0 1px 0 0 #991010;
+}
+
+.input-textfield textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #991010;
+}
+
+.input-textfield input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #991010;
+    box-shadow: 0 1px 0 0 #991010;
+}
+
+.input-textfield input[type=text]:not(.browser-default):focus:not([readonly])+label {
+    color: #991010;
+}
+
+.input-textfield .prefix.active {
+    color: #991010;
+}
+
+
+/* Conocenos */
+
+#conocenos {
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+#conocenos h1 {
+    font-size: 2rem;
+    color: #991010;
+}
+
+#conocenos h5 {
+    font-size: 1.2rem;
+}
+
+#conocenos br {
+    display: none;
+}
+
+
+/* Services */
+
+#mudanzas {
+    background-image: url('assets/mudanza.jpg');
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+
+#mudanzas h6 {
+    /* padding: 10rem; */
+    font-size: 2rem;
+    padding: 25% 0;
+}
+
+#desalojos {
+    background-image: url('assets/desalojos.jpg');
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+
+#desalojos h6 {
+    /* padding: 10rem; */
+    font-size: 2rem;
+    padding: 25% 0;
+}
+
+#renta {
+    background-image: url('assets/renta.jpg');
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+
+#renta h6 {
+    /* padding: 10rem; */
+    font-size: 2rem;
+    padding: 25% 0;
+}
+
+
+/* Razones */
+
+#razones h4 {
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+#razones h5 {
+    font-size: 2rem;
+}
+
+#razones h6 {
+    font-size: 1.5rem;
+}
+
+#razones div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#razones i {
+    font-size: 4rem;
+    color: #991010;
+}
+
+
+/* Maps */
+
+#maps iframe {
+    width: 100%;
+    margin-top: 2rem;
+    height: 20rem;
+}
+
+
+/* Footer */
+
+#footer-logo {
+    width: 15rem;
+    margin-top: 3rem;
+}
+
+.page-footer {
+    background-color: #991010;
+    margin-top: 2rem;
+}
